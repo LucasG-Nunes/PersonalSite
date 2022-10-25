@@ -1,0 +1,38 @@
+$backgroundColor: #151515;
+$fontcolor: #00768C;
+$disableFont: #888FA7;
+$white: #ffff;
+$secondFontColor: #002B33;
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $backgroundColor;
+    .header{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        span{
+            color: $fontcolor;
+            text-align: center;
+            font-size: 1.9em;
+    
+        }
+        h1{
+            font-size: 2.5em;
+            text-align: center;
+            color: $white;
+        }
+
+            p{
+                font-size: 1.5em;
+                max-width: 50rem;
+                color: $disableFont ;
+                margin-top:25px;
+                margin-bottom: 50px;
+            }
+    
+}
+
+}

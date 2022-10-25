@@ -1,0 +1,447 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(180deg, #03272E, #00768C);
+}
+.center .teste i {
+  margin: 1em;
+  font-size: 1em;
+  transition: 1s;
+  color: black;
+}
+.center .teste :hover {
+  color: white;
+  font-size: 2em;
+}
+.center .teste .button {
+  background-color: white;
+}
+.center .altura {
+  height: 30em;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.center h3 {
+  letter-spacing: 2px;
+  color: #00768C;
+}
+.center h1 {
+  color: white;
+  font-size: 4em;
+}
+.center p {
+  color: white;
+}
+.center p:before {
+  content: "|";
+  color: white;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.center p:after {
+  content: "|";
+  color: white;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.center .button {
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 40px;
+  padding: 1.5em;
+  width: 200px;
+  color: white;
+  border: 3px solid #597277;
+  border-radius: 15px;
+  transition: 1s;
+}
+.center .button:hover {
+  border: 3px solid #00768C;
+}
+
+@media screen and (max-width: 400px) {
+  .center h1 {
+    text-align: center;
+  }
+}
+.centerDiv {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.divContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.divContent h3 {
+  color: #00768C;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.divContent h1 {
+  font-size: 2.5em;
+  text-align: center;
+  max-width: 13em;
+  margin: 0 auto;
+  color: #002B33;
+}
+
+.divColumnImageIntro {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 20px;
+  align-items: center;
+}
+.divColumnImageIntro img {
+  margin-right: 20px;
+  border-radius: 100%;
+  border: 3px solid #00768C;
+  width: 200px;
+  background-color: #00768C;
+}
+.divColumnImageIntro p {
+  text-align: left;
+  font-size: 1.5em;
+  color: #888FA7;
+  max-width: 23em;
+}
+
+.perfil_Skills {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+.perfil_Skills h3 {
+  color: #002B33;
+  text-align: left;
+  font-size: 2.4em;
+  margin-bottom: 1em;
+}
+.perfil_Skills p {
+  max-width: 23em;
+  color: #888FA7;
+}
+.perfil_Skills span {
+  display: flex;
+  flex-direction: column;
+  color: #002B33;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.buttons .contato {
+  background-color: white;
+  margin: 20px;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  border: 3px solid #002B33;
+  color: #002B33;
+  letter-spacing: 4px;
+  padding: 0.5em;
+  font-size: 1.5em;
+  border-radius: 10px;
+}
+.buttons .contato:hover {
+  border: 3px solid #00768C;
+  color: #00768C;
+}
+.buttons .downloadCV {
+  background-color: #002B33;
+  margin: 20px;
+  border: 3px solid #002B33;
+  color: white;
+  letter-spacing: 6px;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  font-size: 1.5em;
+  border-radius: 10px;
+}
+.buttons .downloadCV .a {
+  text-decoration: none;
+  color: white;
+}
+.buttons .downloadCV:hover {
+  background-color: #024450;
+}
+
+@media screen and (max-width: 440px) {
+  .divColumnImageIntro {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttons .downloadCV {
+    height: 3rem;
+  }
+  .perfil_Skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .perfil_Skills h3, .perfil_Skills span, .perfil_Skills p {
+    text-align: center;
+  }
+}
+.centerDivPort {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: white;
+}
+.centerDivPort .header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.centerDivPort .header h3 {
+  color: #00768C;
+  text-align: center;
+}
+.centerDivPort .header h1 {
+  font-size: 2.5em;
+  text-align: center;
+  max-width: 13em;
+  margin: 0 auto;
+  color: #002B33;
+}
+.centerDivPort .header .introducao p {
+  font-size: 1.5em;
+  color: #888FA7;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.center_Div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EBEBEB;
+  color: white;
+}
+.center_Div .header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.center_Div .header h3 {
+  color: #00768C;
+  text-align: center;
+}
+.center_Div .header h1 {
+  font-size: 2.5em;
+  text-align: center;
+  max-width: 13em;
+  margin: 0 auto;
+  color: #002B33;
+}
+.center_Div .header .introducao p {
+  font-size: 1.5em;
+  color: #888FA7;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.center_Div .header .introducao h3 {
+  color: #00768C;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.Infos {
+  display: flex;
+  background-color: #EBEBEB;
+  justify-content: center;
+}
+.Infos .ExpProfissional {
+  display: flex;
+  align-items: flex-start;
+  max-width: 65em;
+  margin: 2em;
+}
+.Infos .ExpProfissional article {
+  display: flex;
+  margin-left: 29px;
+}
+.Infos .ExpProfissional .ocupacao {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Infos .ExpProfissional .ocupacao .titulo {
+  color: #002B33;
+  font-size: 1.8em;
+}
+.Infos .ExpProfissional .ocupacao .tempoTrabalho {
+  color: #888FA7;
+}
+.Infos .ExpProfissional .icon {
+  display: flex;
+}
+.Infos .ExpProfissional .icon i {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Infos .ExpProfissional .icon ::after {
+  content: "|";
+  color: #888FA7;
+  font-size: 8.9em;
+  margin-top: -0.2em;
+  opacity: 0.3;
+}
+.Infos .ExpProfissional .icon .span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Infos .ExpProfissional .informacaoOcupacao {
+  display: flex;
+  flex-direction: column;
+}
+.Infos .ExpProfissional .informacaoOcupacao .titulo {
+  color: #002B33;
+  font-size: 1.3em;
+}
+.Infos .ExpProfissional .informacaoOcupacao .titulo::after {
+  content: "_";
+  display: flex;
+  color: #888FA7;
+  margin-top: -1em;
+  margin-bottom: 1.1em;
+  font-size: 8em;
+  height: 20px;
+  opacity: 0.3;
+}
+.Infos .ExpProfissional .informacaoOcupacao p {
+  max-width: 35em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #151515;
+}
+footer .header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+footer .header span {
+  color: #00768C;
+  text-align: center;
+  font-size: 1.9em;
+}
+footer .header h1 {
+  font-size: 2.5em;
+  text-align: center;
+  color: white;
+}
+footer .header p {
+  font-size: 1.5em;
+  max-width: 50rem;
+  color: #888FA7;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 50em;
+  margin-bottom: 70px;
+}
+.form input {
+  width: 100%;
+  height: 6.6em;
+  background-color: #151515;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 1px;
+  margin-bottom: 1em;
+  color: white;
+}
+.form :focus {
+  border-bottom: 3px solid #00ACCC;
+}
+.form textarea {
+  width: 100%;
+  background-color: #151515;
+  border: none;
+  border-bottom: 1px solid white;
+  height: 10em;
+  color: white;
+}
+.form button {
+  width: 100%;
+  height: 4em;
+  margin-top: 2em;
+  background-color: #00ACCC;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.card {
+  background-color: black;
+  max-width: 30rem;
+  padding: 1rem;
+  text-align: center;
+  height: 30em;
+  margin-bottom: 2em;
+}
+.card h1, .card p, .card a {
+  color: white;
+  margin: 1rem;
+}
+.card img {
+  max-width: 98%;
+  max-height: 15rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-radius: 2em;
+}
+
+@media screen and (max-width: 440px) {
+  .card {
+    background-color: black;
+    max-width: 30rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 30em;
+    margin-bottom: 2em;
+  }
+  .card h1 {
+    font-size: 1.1rem;
+    color: red;
+  }
+  .card img {
+    display: none;
+  }
+}/*# sourceMappingURL=Index.css.map */

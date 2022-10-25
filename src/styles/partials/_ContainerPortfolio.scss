@@ -1,0 +1,38 @@
+$fontcolor: #00768C;
+$disableFont: #888FA7;
+$secondFontColor: #002B33;
+$white: #ffff;
+.centerDivPort{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $white;
+    color: $white;
+    .header{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        h3{
+            color: $fontcolor;
+            text-align: center;
+    
+        }
+        h1{
+            font-size: 2.5em;
+            text-align: center;
+            max-width:13em;
+            margin: 0 auto;
+            color: $secondFontColor;
+        }
+        .introducao{
+            p{
+                font-size: 1.5em;
+                color: $disableFont ;
+                margin-top:25px;
+                margin-bottom: 50px;
+            }
+    }
+}
+
+}

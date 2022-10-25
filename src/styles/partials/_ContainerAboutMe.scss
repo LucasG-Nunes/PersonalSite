@@ -1,0 +1,137 @@
+$fontcolor: #00768C;
+$disableFont: #888FA7;
+$secondFontColor: #002B33;
+$thirdFontColor:#ffff;
+
+.centerDiv{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+.divContent{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    h3{
+        color: $fontcolor;
+        letter-spacing: 2px;
+        text-align: center;
+
+    }
+    h1{
+        font-size: 2.5em;
+        text-align: center;
+        max-width:13em;
+        margin: 0 auto;
+        color: $secondFontColor;
+    }
+}
+.divColumnImageIntro{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+    
+    img{
+        margin-right: 20px;
+        border-radius: 100%;
+        border: 3px solid $fontcolor;
+        width: 200px;
+        background-color: $fontcolor;
+    }
+    p{
+        text-align: left;
+        font-size: 1.5em;
+        color: $disableFont ;
+        max-width: 23em;
+        
+    }
+}
+.perfil_Skills{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    h3{
+        color: $secondFontColor;
+        text-align: left;
+        font-size: 2.4em;
+        margin-bottom: 1em;
+    }
+    p{
+        max-width: 23em;
+        color: $disableFont;
+    }
+    span{
+        display: flex;
+        flex-direction: column;
+        color: $secondFontColor;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-top: 0.5em;
+    }
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    .contato{
+        background-color: $thirdFontColor;
+        margin: 20px;
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+        border: 3px solid $secondFontColor;
+        color: $secondFontColor;
+        letter-spacing: 4px;
+        padding: 0.5em;
+        font-size: 1.5em;
+        border-radius:10px;
+        &:hover{
+            border:3px solid $fontcolor;
+            color: $fontcolor;
+        }
+    }
+    .downloadCV{
+        background-color: $secondFontColor;
+        margin: 20px;
+        border: 3px solid $secondFontColor;
+        color: #ffff;
+        letter-spacing: 6px;
+        padding-right: 1.5em;
+        padding-left: 1.5em;
+        font-size: 1.5em;
+        border-radius: 10px;
+        .a{
+            text-decoration: none;
+            color: $thirdFontColor;
+        }
+        &:hover{
+            background-color:#024450;
+        }
+    }
+}
+
+@media screen and (max-width:440px) {
+    .divColumnImageIntro{
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        .downloadCV{
+            height: 3rem;
+        }
+    }
+    
+    .perfil_Skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h3,span,p{
+            text-align: center;
+            
+        }
+    }
+}
