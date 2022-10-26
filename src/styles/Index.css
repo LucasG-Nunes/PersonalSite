@@ -9,19 +9,20 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
   background-image: linear-gradient(180deg, #03272E, #00768C);
 }
-.center .teste i {
+.center .secondArticle i {
   margin: 1em;
   font-size: 1em;
   transition: 1s;
   color: black;
 }
-.center .teste :hover {
+.center .secondArticle :hover {
   color: white;
   font-size: 2em;
 }
-.center .teste .button {
+.center .secondArticle .button {
   background-color: white;
 }
 .center .altura {
@@ -63,6 +64,8 @@
   border: 3px solid #597277;
   border-radius: 15px;
   transition: 1s;
+  align-items: center;
+  text-align: center;
 }
 .center .button:hover {
   border: 3px solid #00768C;
@@ -75,21 +78,20 @@
 }
 .centerDiv {
   display: flex;
-  height: 100%;
   justify-content: center;
 }
 
-.divContent {
+.organizationSection {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
 }
-.divContent h3 {
+.organizationSection h3 {
   color: #00768C;
   letter-spacing: 2px;
   text-align: center;
 }
-.divContent h1 {
+.organizationSection h1 {
   font-size: 2.5em;
   text-align: center;
   max-width: 13em;
@@ -97,43 +99,45 @@
   color: #002B33;
 }
 
-.divColumnImageIntro {
+.articleImgIntroduction {
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 20px;
   align-items: center;
 }
-.divColumnImageIntro img {
+.articleImgIntroduction img {
   margin-right: 20px;
   border-radius: 100%;
   border: 3px solid #00768C;
   width: 200px;
   background-color: #00768C;
 }
-.divColumnImageIntro p {
+.articleImgIntroduction p {
   text-align: left;
   font-size: 1.5em;
   color: #888FA7;
   max-width: 23em;
 }
 
-.perfil_Skills {
+.skills {
   display: flex;
   justify-content: space-evenly;
   margin-top: 80px;
+  max-width: 100%;
 }
-.perfil_Skills h3 {
+.skills h3 {
   color: #002B33;
   text-align: left;
   font-size: 2.4em;
   margin-bottom: 1em;
 }
-.perfil_Skills p {
+.skills li {
+  list-style: none;
   max-width: 23em;
   color: #888FA7;
 }
-.perfil_Skills span {
+.skills span {
   display: flex;
   flex-direction: column;
   color: #002B33;
@@ -182,7 +186,7 @@
 }
 
 @media screen and (max-width: 440px) {
-  .divColumnImageIntro {
+  .articleImgIntroduction {
     display: flex;
     flex-direction: column;
   }
@@ -194,17 +198,17 @@
   .buttons .downloadCV {
     height: 3rem;
   }
-  .perfil_Skills {
+  .skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .perfil_Skills h3, .perfil_Skills span, .perfil_Skills p {
+  .skills h3, .skills span, .skills p {
     text-align: center;
   }
 }
-.centerDivPort {
+.centerSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -212,23 +216,23 @@
   background-color: white;
   color: white;
 }
-.centerDivPort .header {
+.centerSection .header {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
 }
-.centerDivPort .header h3 {
+.centerSection .header h3 {
   color: #00768C;
   text-align: center;
 }
-.centerDivPort .header h1 {
+.centerSection .header h1 {
   font-size: 2.5em;
   text-align: center;
   max-width: 13em;
   margin: 0 auto;
   color: #002B33;
 }
-.centerDivPort .header .introducao p {
+.centerSection .header p {
   font-size: 1.5em;
   color: #888FA7;
   margin-top: 25px;
@@ -347,22 +351,23 @@ footer {
   align-items: center;
   background-color: #151515;
 }
-footer .header {
+
+.header {
   display: flex;
   flex-direction: column;
   margin-top: 50px;
 }
-footer .header span {
+.header span {
   color: #00768C;
   text-align: center;
   font-size: 1.9em;
 }
-footer .header h1 {
+.header h1 {
   font-size: 2.5em;
   text-align: center;
   color: white;
 }
-footer .header p {
+.header p {
   font-size: 1.5em;
   max-width: 50rem;
   color: #888FA7;
@@ -370,13 +375,13 @@ footer .header p {
   margin-bottom: 50px;
 }
 
-.form {
+form {
   display: flex;
   flex-direction: column;
-  max-width: 50em;
+  width: 50em;
   margin-bottom: 70px;
 }
-.form input {
+form input {
   width: 100%;
   height: 6.6em;
   background-color: #151515;
@@ -386,10 +391,10 @@ footer .header p {
   margin-bottom: 1em;
   color: white;
 }
-.form :focus {
+form :focus {
   border-bottom: 3px solid #00ACCC;
 }
-.form textarea {
+form textarea {
   width: 100%;
   background-color: #151515;
   border: none;
@@ -397,7 +402,7 @@ footer .header p {
   height: 10em;
   color: white;
 }
-.form button {
+form button {
   width: 100%;
   height: 4em;
   margin-top: 2em;
@@ -406,6 +411,11 @@ footer .header p {
   border-bottom-right-radius: 20px;
 }
 
+@media screen and (max-width: 540px) {
+  form {
+    max-width: 90%;
+  }
+}
 .card {
   background-color: black;
   max-width: 30rem;

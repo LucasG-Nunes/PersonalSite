@@ -5,10 +5,9 @@ $thirdFontColor:#ffff;
 
 .centerDiv{
     display: flex;
-    height: 100%;
     justify-content: center;
 }
-.divContent{
+.organizationSection{
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -26,10 +25,10 @@ $thirdFontColor:#ffff;
         color: $secondFontColor;
     }
 }
-.divColumnImageIntro{
+.articleImgIntroduction{
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 20px;
     align-items: center;
     
@@ -48,17 +47,19 @@ $thirdFontColor:#ffff;
         
     }
 }
-.perfil_Skills{
+.skills{
     display: flex;
     justify-content: space-evenly;
     margin-top: 80px;
+    max-width: 100%;
     h3{
         color: $secondFontColor;
         text-align: left;
         font-size: 2.4em;
         margin-bottom: 1em;
     }
-    p{
+    li{
+       list-style: none;
         max-width: 23em;
         color: $disableFont;
     }
@@ -111,7 +112,7 @@ $thirdFontColor:#ffff;
 }
 
 @media screen and (max-width:440px) {
-    .divColumnImageIntro{
+    .articleImgIntroduction{
         display: flex;
         flex-direction: column;
     }
@@ -124,7 +125,7 @@ $thirdFontColor:#ffff;
         }
     }
     
-    .perfil_Skills{
+    .skills{
         display: flex;
         flex-direction: column;
         justify-content: center;

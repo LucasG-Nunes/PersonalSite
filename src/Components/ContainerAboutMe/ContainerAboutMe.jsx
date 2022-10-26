@@ -1,17 +1,22 @@
 import img from "../../Files/download.jpg"
 import file from "../../Files/LucasMeirelesCV.pdf"
 import {Link} from "react-scroll"
+import Information from "./InformationArticle/Information"
+import Skills from "./SkillsArticle/Skills"
+
 const ContainerAboutMe = () => {
   return (
 
-    <container id="containerAboutMe" className='centerDiv'>
 
-      <section className='divContent'>
 
+      <section id="sectionAboutMe" className='centerDiv organizationSection '>
+
+        <header>
         <h3>SOBRE</h3>
         <h1>Vou contar um pouco sobre meu trabalho...</h1>
+        </header>
 
-        <article className='divColumnImageIntro'>
+        <article className='articleImgIntroduction'>
           <img src={img} alt="ImagemDoChar"></img>
           <p>
             Me graduando em Análise e desenvolvimento de sistemas, venho estudando por diversas plataformas como: Udemy, Digital Innovation One e Rocketseat.
@@ -21,51 +26,33 @@ const ContainerAboutMe = () => {
           
         </article>
         
-        <article className='perfil_Skills'>
+        <article className='skills'>
 
-          <div>
+         
+          <section>
+            <header>
             <h3>Perfil</h3>
-            <p>Eu  programação, me divirto muito e tomo bastante café durante meus projetos. </p>
-            <span>Nome:</span>
-            <p>Lucas Gabriel</p>
-            <span>Nascimento:</span>
-            <p>15/01/2002</p>
-            <span>Cargo:</span>
-            <p>Front end Software Developer</p>
-            <span>Email:</span>
-            <p>lucasgnam12@gmail.com</p>
-          </div>
+            <p>Eu amo programação, me divirto muito e tomo bastante café durante meus projetos. </p>
+            </header>
+            <Information title={"Nome: "} information={"Lucas Gabriel"} />  
+            <Information title={"Nascimento: "} information={"15/01/2002"} />  
+            <Information title={"Cargo: "} information={"Front end Software Developer"} />  
+            <Information title={"Email: "} information={"lucasgnam12@gmail.com"} />  
+          </section>
 
-          <div>
+          <section>
               <h3>Skills</h3>
-
-              <span>Front End</span>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>JavaScript</p>
-                <p>React</p>
-                <p>SASS/SCSS</p>
-                <p>TypeScript</p>
-
-              <span>Back End</span>
-                <p>Node</p>
-                <p>Express.js</p>
-
-              <span>Databases</span>
-                <p>MySQL</p>
-                <p>PostgreSQL</p>
-                <p>MongoDB</p>
-
-              <span>ORM/ODM</span>
-                <p>Prisma</p>
-                <p>Mongoose</p>
-            </div>
+              <Skills title={"Front End"} array={["HTML","CSS","JavaScript","React","SASS/SCSS","Typescript"]}/>
+              <Skills title={"Back End"} array={["Node","Express"]}/>
+              <Skills title={"Databases"} array={["MySQL","PostgreSQL","MongoDB"]}/>
+              <Skills title={"ORM/ODM"} array={["Prisma","Mongoose"]}/>
+          </section>
 
         </article>
 
         <article className="buttons">
-          <Link to="footer" smooth="true">
-          <button className="contato">Entre em contato</button>
+          <Link className="contato" to="footer" smooth="true">
+          Entre em contato
           </Link>
           <button className="downloadCV">
             <a className="a" href={file}>Download CV</a>
@@ -74,8 +61,8 @@ const ContainerAboutMe = () => {
 
       </section>
 
-    </container>
+
   )
-}
+} 
 
 export default ContainerAboutMe

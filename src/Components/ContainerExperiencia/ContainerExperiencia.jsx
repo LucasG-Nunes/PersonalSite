@@ -6,13 +6,15 @@ const ContainerExperiencia = () => {
   return (
     <>
 
-      <container className='center_Div'>
+      <section className='center_Div'>
 
         <section className="header">
-          <article>
+          
+            <header>
             <h3>Resumo</h3>
             <h1>Minhas qualificações</h1>
-          </article>
+            </header>
+          
 
           <article className="introducao">
             <p >Um pouco sobre minha tragetória no mundo da programação</p>
@@ -20,7 +22,7 @@ const ContainerExperiencia = () => {
           </article>
 
         </section>
-      </container>
+      </section>
 
 
         <ArticleExperiencia 
@@ -61,15 +63,18 @@ const ContainerExperiencia = () => {
           JavaScript buscando a satisfação do cliente.
 
           </ArticleExperiencia>
-      <container className="center_Div">
+
+      <section className="center_Div">
+        
         <section className="header">
-          <article className="introducao">
+          <header className="introducao">
             <h3>Educação</h3>
-          </article>
+          </header>
           
         </section>
         
-      </container>
+      </section>
+      
            <ArticleExperiencia 
         tempoDeTrabalho="2021 - 2023" 
         titulo="ADS" 

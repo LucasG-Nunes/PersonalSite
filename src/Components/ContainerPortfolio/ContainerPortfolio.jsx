@@ -64,20 +64,22 @@ const ContainerPortfolio = () => {
   return (
     <>
 
-    <container className='centerDivPort'>
+    <section className='centerSection'>
 
         <section className="header">
-          <article>
+
+          <header>
             <h3>Portfolio</h3>
             <h1>Confira alguns projetos realizados</h1>
-          </article>
+          </header>
 
-          <article className="introducao">
+
             <p >Você pode também conferir nas redes sociais aqui disponibilizadas</p>
-          </article>
+
 
         </section>
-      </container>
+
+      </section>
 
       <Slider settings={settings}>
         {cardsInfos.map((card)=>(

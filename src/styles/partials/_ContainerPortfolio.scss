@@ -2,7 +2,7 @@ $fontcolor: #00768C;
 $disableFont: #888FA7;
 $secondFontColor: #002B33;
 $white: #ffff;
-.centerDivPort{
+.centerSection{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,13 +25,12 @@ $white: #ffff;
             margin: 0 auto;
             color: $secondFontColor;
         }
-        .introducao{
+
             p{
                 font-size: 1.5em;
                 color: $disableFont ;
                 margin-top:25px;
                 margin-bottom: 50px;
-            }
     }
 }
 
