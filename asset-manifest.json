@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PersonalSite/static/css/main.c89c6c5d.css",
-    "main.js": "/PersonalSite/static/js/main.00454353.js",
+    "main.js": "/PersonalSite/static/js/main.cafb89dc.js",
     "static/media/MangaFlix.PNG": "/PersonalSite/static/media/MangaFlix.468038b981b94c7e4e10.PNG",
     "static/media/Ecommerce.PNG": "/PersonalSite/static/media/Ecommerce.45f5ed704c4e5ea5d93c.PNG",
     "static/media/Amazon.PNG": "/PersonalSite/static/media/Amazon.8293ec7afb63686b60d0.PNG",
@@ -10,10 +10,10 @@
     "static/media/LucasMeirelesCV.pdf": "/PersonalSite/static/media/LucasMeirelesCV.6b3247761c709785f6a3.pdf",
     "index.html": "/PersonalSite/index.html",
     "main.c89c6c5d.css.map": "/PersonalSite/static/css/main.c89c6c5d.css.map",
-    "main.00454353.js.map": "/PersonalSite/static/js/main.00454353.js.map"
+    "main.cafb89dc.js.map": "/PersonalSite/static/js/main.cafb89dc.js.map"
   },
   "entrypoints": [
     "static/css/main.c89c6c5d.css",
-    "static/js/main.00454353.js"
+    "static/js/main.cafb89dc.js"
   ]
 }
