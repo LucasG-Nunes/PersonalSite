@@ -24,6 +24,9 @@ $thirdFontColor:#ffff;
         margin: 0 auto;
         color: $secondFontColor;
     }
+    p{
+        max-width: 18rem;
+    }
 }
 .articleImgIntroduction{
     display: flex;

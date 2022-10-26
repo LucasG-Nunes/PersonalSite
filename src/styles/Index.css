@@ -98,6 +98,9 @@
   margin: 0 auto;
   color: #002B33;
 }
+.organizationSection p {
+  max-width: 18rem;
+}
 
 .articleImgIntroduction {
   display: flex;
