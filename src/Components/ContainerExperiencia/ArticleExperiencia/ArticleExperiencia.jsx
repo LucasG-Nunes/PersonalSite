@@ -2,8 +2,10 @@
 //TIRAR DESCRIÇÃO E BOTAR PROPS.CHILDREN
 const ArticleExperiencia = ({ocupacao,titulo,tempoDeTrabalho, children,icon}) => {
     return (
-        <div className="Infos">
-        <section className="ExpProfissional">
+
+        <section className="Infos">
+
+        <section className="  ExpProfissional ">
 
             <article className="ocupacao">
                 <span className="titulo">{titulo}</span>
@@ -22,7 +24,9 @@ const ArticleExperiencia = ({ocupacao,titulo,tempoDeTrabalho, children,icon}) =>
             </article>
 
         </section>
-        </div>
+
+        </section>
+
     )
 }
 
