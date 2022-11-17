@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/PersonalSite/static/css/main.1bfde364.css",
-    "main.js": "/PersonalSite/static/js/main.cafb89dc.js",
+    "main.js": "/PersonalSite/static/js/main.67c27ca7.js",
     "static/media/MangaFlix.PNG": "/PersonalSite/static/media/MangaFlix.468038b981b94c7e4e10.PNG",
     "static/media/Ecommerce.PNG": "/PersonalSite/static/media/Ecommerce.45f5ed704c4e5ea5d93c.PNG",
     "static/media/Amazon.PNG": "/PersonalSite/static/media/Amazon.8293ec7afb63686b60d0.PNG",
     "static/media/ProjetoUniversidade.PNG": "/PersonalSite/static/media/ProjetoUniversidade.119d76f73293b3aa55a9.PNG",
     "static/media/ControleDeEstoque.PNG": "/PersonalSite/static/media/ControleDeEstoque.2fb1c64fc79170efd305.PNG",
-    "static/media/LucasMeirelesCV.pdf": "/PersonalSite/static/media/LucasMeirelesCV.6b3247761c709785f6a3.pdf",
+    "static/media/LucasMeirelesCV.pdf": "/PersonalSite/static/media/LucasMeirelesCV.df633ca5be7fa702405d.pdf",
     "index.html": "/PersonalSite/index.html",
     "main.1bfde364.css.map": "/PersonalSite/static/css/main.1bfde364.css.map",
-    "main.cafb89dc.js.map": "/PersonalSite/static/js/main.cafb89dc.js.map"
+    "main.67c27ca7.js.map": "/PersonalSite/static/js/main.67c27ca7.js.map"
   },
   "entrypoints": [
     "static/css/main.1bfde364.css",
-    "static/js/main.cafb89dc.js"
+    "static/js/main.67c27ca7.js"
   ]
 }
