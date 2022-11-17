@@ -32,9 +32,10 @@ const ContainerExperiencia = () => {
         Software" 
         icon={<i class="bi bi-terminal-x"></i>}
           >
-                        Desenvolvimento web full-stack utilizando
-                      react com typescript e jest para testes no
-                      front e node com typescript para o back
+                        Experiência em desenvolvimento de
+aplicações com react & typescript, node &
+typescript utilizando mongoose, mongoDB,
+Jest e Cypress.
           </ArticleExperiencia>
 
         <ArticleExperiencia 
@@ -44,8 +45,10 @@ const ContainerExperiencia = () => {
         icon={<i class="bi bi-terminal-x"></i>}
           >
           Desenvolver soluções tecnológicas em
-          PEGA participando de dailys, refinamentos
-          técnicos e handover funcionais.
+PEGA participando de dailys, refinamentos
+técnicos e handover funcionais, correção de
+bugs, com SCRUM e Azure Devops.
+
 
           </ArticleExperiencia>
 

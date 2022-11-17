@@ -55,7 +55,7 @@ const ContainerAboutMe = () => {
           Entre em contato
           </Link>
           <button className="downloadCV">
-            <a className="a" href={file}>Download CV</a>
+            <a className="a" target='blank' href={file}>Download CV</a>
           </button>
         </article>
 
